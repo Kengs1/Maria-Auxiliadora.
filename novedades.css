@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: o;
+    background: url(fondo-tecnologia-metal-violeta_109181-226.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #FEFCFE;
+    color: #616061;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border:5px outset #8a133bfa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.contenedor figure {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px#616061;
+    cursor: pointer;
+    border: 5px double #8a133bfa;
+}
+
+.contenedor figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+
+.contenedor figure .capa h3{
+    color: #130f13;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.contenedor figure .capa p{
+    color: #130f13;
+    font-size: 25px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

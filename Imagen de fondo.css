@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: o;
+    background: url(fondo-tecnologia-metal-violeta_109181-226.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #FEFCFE;
+    color: #616061;
+    text-align:center;
+    width: 80%;
+    margin: auto;
+    border:5px outset #8a133bfa; 
+}
+
+iframe {
+    width: 100%;
+    margin: auto;
+}

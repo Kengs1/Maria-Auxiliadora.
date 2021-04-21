@@ -1,0 +1,110 @@
+* {
+    text-align: center;
+    padding: 0%;
+}
+
+body{
+    margin: 0;
+    padding: o;
+    background: url(fondo-tecnologia-metal-violeta_109181-226.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+
+header {
+    background: #FEFCFE;
+    min-width: 350px;
+    width: 1250px;
+    width: 80%;
+    margin: auto;
+    color: #616061;
+    border:5px outset #8a133bfa;
+}
+
+h2, h3, h4, h5, h6 {
+    background-color: #FEFCFE;
+    color:  #616061;
+    width: 80%;
+    margin: auto;
+    border:5px outset #8a133bfa;
+}
+
+.afuera{
+    height: 500px;
+    width: 300px;
+    width: 30%;
+    margin-block-start: 1cm;
+    margin-block-end: 0,5cm;
+    border: 5px outset #8a133bfa;
+}
+
+.panaderia{
+    height: 300px;
+    width: 600px;
+    width: 65%;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+    border: 5px outset #8a133bfa;
+}
+
+.carniceria{
+    height: 300px;
+    width: 600px;
+    width: 65%;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+    border: 5px outset #8a133bfa; 
+}
+
+.express{
+    height: 300px;
+    width: 600px;
+    width: 65%;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+    border: 5px outset #8a133bfa;
+}
+
+h2 {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.menu{
+    list-style: none;
+    padding: 8;
+    background: #FEFCFE;
+    min-width: 350px;
+    width: 1250px;
+    width: 80%;
+    margin: auto;
+    margin-block-end: 1cm;
+    margin-block-start: 1cm;
+    text-align: center;
+    border:5px outset #8a133bfa;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #616061;
+    padding: 20px;
+    display: block;
+    box-shadow:0px 5px 0px #cccbcc;
+}
+
+.menu li{
+    display: inline-block;
+    text-align-last: center;
+}
+
+.menu li a:hover{
+    background: #cccbcc;
+    box-shadow:0px 2px 0px #cccbcc;
+}
+
+.menu li a:active{
+    box-shadow: none;
+}
